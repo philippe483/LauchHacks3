@@ -58,7 +58,7 @@ while True:
         break  # If conversion is successful, exit the loop
     except ValueError:
         print("Please enter valid integers for the interval.")
-print( '%.5f' % elevenPointNewtonCotesFormula(userfunction, firstValue, secondValue))
+print("the value the of intergal is " + '%.5f' % elevenPointNewtonCotesFormula(userfunction, firstValue, secondValue))
 
 
 
