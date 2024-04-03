@@ -3,7 +3,7 @@ import re
 def getUserFunction(): # still doesn't work for trig fonctions, will have to look into that
     
 
-    function_str = input("Enter a elementary function in python syntax: ")
+    function_str = input("Enter a elementary function in python syntax(no trig or log fonctions): ")
     
     # Regular expressions was something I learned while doing this
     pattern = r'^[0-9+\-*/().\s^x]+(?:sin|cos|tan|sqrt|log|exp)*[0-9+\-*/().\s^x]+$'
